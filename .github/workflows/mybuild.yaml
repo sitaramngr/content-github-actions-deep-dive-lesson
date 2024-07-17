@@ -5,9 +5,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: check out code
+      - name: checkoutcode
 	uses: actions/checkout@v2
-      - name: setup python
+      - name: setuppython
 	uses: actions/setup-python@v2
 	with
 	  python-version: 3.8
