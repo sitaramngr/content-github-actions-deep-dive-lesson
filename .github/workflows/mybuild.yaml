@@ -1,8 +1,5 @@
 name: deploy lambda function
-on: 
-  push:
-    branches:
-      - mywork
+on: workflow_dispatch
 
 jobs:
   build:
