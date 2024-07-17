@@ -2,7 +2,7 @@ name: deploy lambda function
 on: 
   push:
     branches:
-	  - mywork
+      - mywork
 
 jobs:
   build:
