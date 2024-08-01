@@ -62,6 +62,7 @@ jobs:
               --s3-bucket my-bucket-asjhabkfbksbfhkj \
               --s3-key ${{ github.repository }}/${{ github.sha }}.zip \
               --publish
+      # test
 
 
       
